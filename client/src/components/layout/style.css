@@ -1,0 +1,25 @@
+.notification-badge {
+    position: absolute;
+    top: 9px; /* -top-1 */
+    right: 120px; /* -right-2 */
+    background-color: #dc2626; /* bg-red-600 */
+    font-size: 12px; /* text-xs */
+    width: 20px; /* w-5 */
+    height: 20px; /* h-5 */
+    display: flex; /* flex */
+    justify-content: center; /* justify-center */
+    align-items: center; /* items-center */
+    border-radius: 50%; /* rounded-full */
+    color: #ffffff; /* text-white */
+    animation: bounce 1s infinite; /* animate-bounce */
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10%);
+    }
+  }
+  
